@@ -16,7 +16,7 @@ import (
 
 func StartHttpServer() error {
 	// 创建IDL Provider
-	p, err := generic.NewThriftFileProvider("./.idl/teaching_evaluate.thrift", "./.idl")
+	p, err := generic.NewThriftFileProvider("./idl/teaching_evaluate.thrift", "./idl")
 	if err != nil {
 		log.Fatal("Failed to create IDL provider:", err)
 		return err

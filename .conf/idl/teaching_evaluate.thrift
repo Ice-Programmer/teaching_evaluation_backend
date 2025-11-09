@@ -1,5 +1,5 @@
 namespace go teaching_evaluate
-include 'base.thrift'
+include "base.thrift"
 
 struct PingRequest {
 	255: required base.Base Base
