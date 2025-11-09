@@ -19,3 +19,14 @@ func (s *TeachingEvaluateServiceImpl) Ping(ctx context.Context, req *teaching_ev
 	}
 	return resp, nil
 }
+
+// CreateClass implements the TeachingEvaluateServiceImpl interface.
+func (s *TeachingEvaluateServiceImpl) CreateClass(ctx context.Context, req *teaching_evaluate.CreateClassRequest) (resp *teaching_evaluate.CreateClassResponse, err error) {
+	return
+}
+
+// UserLogin implements the TeachingEvaluateServiceImpl interface.
+func (s *TeachingEvaluateServiceImpl) UserLogin(ctx context.Context, req *teaching_evaluate.UserLoginRequest) (resp *teaching_evaluate.UserLoginResponse, err error) {
+	// TODO: Your code here...
+	return
+}

@@ -1,6 +1,7 @@
 package main
 
 import (
+	"context"
 	"github.com/cloudwego/kitex/pkg/klog"
 	"github.com/cloudwego/kitex/pkg/transmeta"
 	kitexserver "github.com/cloudwego/kitex/server"
@@ -13,6 +14,7 @@ import (
 	"path"
 	"sync"
 	"teaching_evaluate_backend/gateway"
+	init_ "teaching_evaluate_backend/init"
 	evaluation "teaching_evaluate_backend/kitex_gen/teaching_evaluate/teachingevaluateservice"
 	"time"
 )
@@ -22,6 +24,17 @@ const (
 )
 
 func main() {
+	ctx := context.Background()
+
+	if err := initLog(); err != nil {
+		log.Fatalf("init_ log error: %v", err)
+	}
+
+	if err := init_.Init(ctx); err != nil {
+		klog.CtxErrorf(ctx, "Init log error: %v", err)
+		panic(err)
+	}
+
 	var wg sync.WaitGroup
 	wg.Add(2)
 

@@ -64,8 +64,14 @@ func StartHttpServer() error {
 		})
 
 		// 设置请求体
-		if len(ctx.Request.Body()) > 0 {
-			req.Body = http.NoBody // 暂时设置为NoBody，实际的body会通过FromHTTPRequest处理
+		// 复制请求头
+		ctx.Request.Header.VisitAll(func(key, value []byte) {
+			req.Header.Add(string(key), string(value))
+		})
+
+		// 如果上游没设置Content-Type，就默认用JSON
+		if req.Header.Get("Content-Type") == "" {
+			req.Header.Set("Content-Type", "application/json")
 		}
 
 		// 使用Kitex提供的FromHTTPRequest函数创建HTTPRequest
@@ -102,6 +108,8 @@ func StartHttpServer() error {
 					ctx.Response.Header.Set(k, v[0])
 				}
 			}
+
+			ctx.Response.Header.Set("Content-Type", "application/json")
 
 			// 设置状态码
 			ctx.Status(int(httpResp.StatusCode))

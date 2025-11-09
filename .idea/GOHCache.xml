@@ -1,8 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="PingRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/kitex_gen/teaching_evaluate/teaching_evaluate.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PingResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/kitex_gen/teaching_evaluate/teaching_evaluate.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="TeachingEvaluateServiceImpl">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/handler.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="TeachingEvaluateServicePingArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/kitex_gen/teaching_evaluate/teaching_evaluate.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="TeachingEvaluateServicePingResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/kitex_gen/teaching_evaluate/teaching_evaluate.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="kClient">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/kitex_gen/teaching_evaluate/teachingevaluateservice/teachingevaluateservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="kTeachingEvaluateServiceClient">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/kitex_gen/teaching_evaluate/teachingevaluateservice/client.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="scannedPathMapping">
       <map>
+        <entry key="file://$PROJECT_DIR$/gateway/http.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1762178543719" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1762179120599" />
+              <option name="schema">
+                <list>
+                  <option value="TeachingEvaluateServiceImpl" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/base_detail.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1762178543732" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/class/create.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1762179120654" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/ping/ping.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1762178543734" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/kitex_gen/base/base.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1762178543736" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/kitex_gen/base/k-base.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1762178543739" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/kitex_gen/base/k-consts.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1762178543740" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/kitex_gen/teaching_evaluate/k-consts.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1762178543742" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/kitex_gen/teaching_evaluate/k-teaching_evaluate.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1762178543745" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/kitex_gen/teaching_evaluate/teaching_evaluate.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1762178543747" />
+              <option name="schema">
+                <list>
+                  <option value="PingRequest" />
+                  <option value="PingResponse" />
+                  <option value="TeachingEvaluateServicePingArgs" />
+                  <option value="TeachingEvaluateServicePingResult" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/kitex_gen/teaching_evaluate/teachingevaluateservice/client.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1762178543749" />
+              <option name="schema">
+                <list>
+                  <option value="kTeachingEvaluateServiceClient" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/kitex_gen/teaching_evaluate/teachingevaluateservice/server.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1762178543751" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/kitex_gen/teaching_evaluate/teachingevaluateservice/teachingevaluateservice.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1762178543754" />
+              <option name="schema">
+                <list>
+                  <option value="kClient" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1762178543758" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/thrift/base.go">
           <value>
             <ScannedPath>
@@ -10,6 +191,17 @@
             </ScannedPath>
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="k_client" value="kClient" />
+        <entry key="k_teaching_evaluate_service_client" value="kTeachingEvaluateServiceClient" />
+        <entry key="ping_request" value="PingRequest" />
+        <entry key="ping_response" value="PingResponse" />
+        <entry key="teaching_evaluate_service_impl" value="TeachingEvaluateServiceImpl" />
+        <entry key="teaching_evaluate_service_ping_args" value="TeachingEvaluateServicePingArgs" />
+        <entry key="teaching_evaluate_service_ping_result" value="TeachingEvaluateServicePingResult" />
       </map>
     </option>
     <option name="lastTimeChecked" value="1762174168095" />
