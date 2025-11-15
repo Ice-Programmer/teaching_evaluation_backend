@@ -1,0 +1,88 @@
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-09T23:07:33+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-09T23:08:02+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-09T23:08:02+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-09T23:08:32+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-09T23:08:32+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-09T23:08:42+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-09T23:08:42+08:00"}
+{"level":"error","msg":"UserLogin err: user not found","time":"2025-11-09T23:09:32+08:00"}
+{"level":"error","msg":"UserLogin err: sql: Scan error on column index 2, name \"password\": converting driver.Value type []uint8 (\"21232f297a57a5a743894a0e4a801fc3\") to a int64: invalid syntax","time":"2025-11-09T23:12:12+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-09T23:12:49+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-09T23:12:50+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-09T23:12:53+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-09T23:12:53+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-09T23:12:53+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-09T23:12:53+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-09T23:12:55+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-09T23:12:55+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-09T23:14:34+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-09T23:14:34+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-09T23:15:36+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-09T23:15:36+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-09T23:19:59+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-09T23:20:00+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-09T23:20:02+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-09T23:20:02+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-09T23:20:44+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-09T23:20:44+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-09T23:21:21+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-09T23:21:21+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-09T23:21:21+08:00"}
+{"level":"error","msg":"KITEX: server listen failed, addr=:8888 error=listen tcp :8888: bind: address already in use","time":"2025-11-09T23:21:21+08:00"}
+{"level":"error","msg":"KITEX: server start error: error=listen tcp :8888: bind: address already in use","time":"2025-11-09T23:21:21+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-09T23:21:26+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-09T23:21:26+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-09T23:21:33+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-09T23:21:33+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-09T23:22:34+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-09T23:22:34+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-09T23:22:40+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-09T23:22:40+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-09T23:24:13+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-09T23:24:13+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-09T23:24:15+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-09T23:24:15+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-09T23:24:24+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-09T23:24:39+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-09T23:24:39+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-09T23:33:03+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-09T23:33:03+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-09T23:33:24+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-09T23:35:30+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-09T23:35:30+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-09T23:35:33+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-09T23:35:33+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-09T23:36:04+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-09T23:42:49+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-09T23:42:49+08:00"}
+{"level":"warning","msg":"KITEX: auto retry retryable error, retry=1 error=remote or network error: get connection error: dial tcp 127.0.0.1:8888: connection has been closed by peer","time":"2025-11-09T23:42:49+08:00"}
+{"level":"warning","msg":"KITEX: auto retry retryable error, retry=2 error=remote or network error: get connection error: dial tcp 127.0.0.1:8888: connection has been closed by peer","time":"2025-11-09T23:42:49+08:00"}
+{"level":"warning","msg":"KITEX: auto retry retryable error, retry=3 error=remote or network error: get connection error: dial tcp 127.0.0.1:8888: connection has been closed by peer","time":"2025-11-09T23:42:49+08:00"}
+{"level":"warning","msg":"KITEX: auto retry retryable error, retry=4 error=remote or network error: get connection error: dial tcp 127.0.0.1:8888: connection has been closed by peer","time":"2025-11-09T23:42:49+08:00"}
+{"level":"warning","msg":"KITEX: auto retry retryable error, retry=5 error=remote or network error: get connection error: dial tcp 127.0.0.1:8888: connection has been closed by peer","time":"2025-11-09T23:42:49+08:00"}
+{"level":"warning","msg":"KITEX: auto retry retryable error, retry=6 error=remote or network error: get connection error: dial tcp 127.0.0.1:8888: connection has been closed by peer","time":"2025-11-09T23:42:49+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-09T23:42:49+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-09T23:42:50+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-09T23:42:50+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-09T23:43:25+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-09T23:48:05+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-09T23:53:16+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-09T23:53:16+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-09T23:53:19+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-09T23:53:19+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-09T23:53:44+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-09T23:54:07+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-09T23:54:39+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-09T23:55:12+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-09T23:55:20+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-09T23:55:26+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-09T23:56:11+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-09T23:56:11+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-09T23:56:11+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-09T23:56:14+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-09T23:56:14+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-09T23:56:16+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-09T23:56:17+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-09T23:56:28+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-10T00:02:55+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-10T00:02:55+08:00"}

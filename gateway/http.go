@@ -16,7 +16,7 @@ import (
 
 func StartHttpServer() error {
 	// 创建IDL Provider
-	p, err := generic.NewThriftFileProvider("./idl/teaching_evaluate.thrift", "./idl")
+	p, err := generic.NewThriftFileProvider(".conf/idl/teaching_evaluate.thrift", "./idl")
 	if err != nil {
 		log.Fatal("Failed to create IDL provider:", err)
 		return err
@@ -58,11 +58,6 @@ func StartHttpServer() error {
 			RawQuery: string(uri.QueryString()),
 		}
 
-		// 复制请求头
-		ctx.Request.Header.VisitAll(func(key, value []byte) {
-			req.Header.Add(string(key), string(value))
-		})
-
 		// 设置请求体
 		// 复制请求头
 		ctx.Request.Header.VisitAll(func(key, value []byte) {
@@ -83,14 +78,34 @@ func StartHttpServer() error {
 		}
 
 		// 设置请求体数据
+		httpReq.Body = make(map[string]interface{})
 		if len(ctx.Request.Body()) > 0 {
-			httpReq.Body = make(map[string]interface{})
 			if err := json.Unmarshal(ctx.Request.Body(), &httpReq.Body); err != nil {
 				log.Printf("Failed to unmarshal request body: %v", err)
 				ctx.JSON(http.StatusBadRequest, map[string]string{"error": "Invalid JSON body"})
 				return
 			}
 		}
+		baseMap := make(map[string]interface{})
+		ctx.Request.Header.VisitAll(func(k, v []byte) {
+			key := string(k)
+			val := string(v)
+			baseMap[key] = val
+		})
+
+		// 2️⃣ 将 Base 注入到请求 body 的 "Base" 字段
+		if _, ok := httpReq.Body["Base"]; !ok {
+			httpReq.Body["Base"] = map[string]interface{}{}
+		}
+		baseInterface, ok := httpReq.Body["Base"].(map[string]interface{})
+		if !ok {
+			baseInterface = map[string]interface{}{}
+			httpReq.Body["Base"] = baseInterface
+		}
+		baseInterface["Extra"] = baseMap
+
+		bodyBytes, _ := json.Marshal(httpReq.Body)
+		ctx.Request.AppendBodyString(string(bodyBytes))
 
 		// 调用Generic Client
 		resp, err := genericCli.GenericCall(c, "", httpReq)

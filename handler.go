@@ -3,7 +3,9 @@ package main
 import (
 	"context"
 	"github.com/cloudwego/kitex/pkg/klog"
+	"teaching_evaluate_backend/handler"
 	"teaching_evaluate_backend/handler/ping"
+	"teaching_evaluate_backend/handler/user"
 	teaching_evaluate "teaching_evaluate_backend/kitex_gen/teaching_evaluate"
 )
 
@@ -27,6 +29,12 @@ func (s *TeachingEvaluateServiceImpl) CreateClass(ctx context.Context, req *teac
 
 // UserLogin implements the TeachingEvaluateServiceImpl interface.
 func (s *TeachingEvaluateServiceImpl) UserLogin(ctx context.Context, req *teaching_evaluate.UserLoginRequest) (resp *teaching_evaluate.UserLoginResponse, err error) {
-	// TODO: Your code here...
-	return
+	resp, err = user.UserLogin(ctx, req)
+	if err != nil {
+		klog.CtxErrorf(ctx, "UserLogin err: %v", err)
+		resp = &teaching_evaluate.UserLoginResponse{
+			BaseResp: handler.GenErrorBaseResp(err.Error()),
+		}
+	}
+	return resp, nil
 }

@@ -59,7 +59,8 @@ func StartKitexServer() error {
 	svr := evaluation.NewServer(new(TeachingEvaluateServiceImpl),
 		kitexserver.WithServiceAddr(&net.TCPAddr{Port: 8888}),
 		kitexserver.WithMetaHandler(transmeta.ServerTTHeaderHandler),
-		kitexserver.WithMetaHandler(transmeta.ServerHTTP2Handler))
+		kitexserver.WithMetaHandler(transmeta.ServerHTTP2Handler),
+	)
 	err := svr.Run()
 	if err != nil {
 		log.Println("Thrift server stopped:", err.Error())

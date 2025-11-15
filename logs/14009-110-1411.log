@@ -1,0 +1,6 @@
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-14T21:01:10+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-14T21:01:10+08:00"}
+{"level":"info","msg":"info: ","time":"2025-11-15T15:17:26+08:00"}
+{"level":"info","msg":"Pong: ","time":"2025-11-15T15:17:26+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T15:17:26+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T15:17:26+08:00"}

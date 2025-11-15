@@ -1,0 +1,45 @@
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T18:25:21+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T18:25:21+08:00"}
+{"level":"info","msg":"ctx: null","time":"2025-11-15T18:27:22+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-15T18:27:22+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T18:28:31+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T18:28:31+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T18:28:38+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T18:28:38+08:00"}
+{"level":"info","msg":"ctx: null","time":"2025-11-15T18:29:19+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-15T18:29:19+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T18:30:46+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T18:30:46+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T18:30:53+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T18:30:53+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T18:36:57+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T18:36:57+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T18:36:59+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T18:36:59+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T18:37:36+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T18:37:36+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T18:37:38+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T18:37:38+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T18:39:54+08:00"}
+{"level":"info","msg":"ctx: null","time":"2025-11-15T18:39:54+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-15T18:39:54+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T18:39:54+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T18:45:24+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T18:45:24+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T18:48:14+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T18:48:14+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T18:48:21+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T18:48:21+08:00"}
+{"level":"info","msg":"ctx: null","time":"2025-11-15T18:48:30+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-15T18:48:30+08:00"}
+{"level":"info","msg":"ctx: null","time":"2025-11-15T18:48:53+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-15T18:48:53+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T18:50:00+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T18:50:00+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T18:51:16+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T18:51:16+08:00"}
+{"level":"info","msg":"ctx: null","time":"2025-11-15T18:51:20+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-15T18:51:20+08:00"}
+{"level":"info","msg":"Pong: ping-pong","time":"2025-11-15T18:51:22+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T18:51:27+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T18:51:27+08:00"}

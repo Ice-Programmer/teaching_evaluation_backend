@@ -1,0 +1,36 @@
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-14T20:45:53+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-14T20:45:53+08:00"}
+{"level":"info","msg":"info: \u003cnil\u003e","time":"2025-11-14T20:46:01+08:00"}
+{"level":"info","msg":"Pong: ","time":"2025-11-14T20:46:01+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-14T20:48:00+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-14T20:48:00+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-14T20:48:07+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-14T20:48:07+08:00"}
+{"level":"info","msg":"info: \u003cnil\u003e","time":"2025-11-14T20:48:17+08:00"}
+{"level":"info","msg":"Pong: ","time":"2025-11-14T20:48:17+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-14T20:56:34+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-14T20:56:34+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-14T20:56:36+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-14T20:56:36+08:00"}
+{"level":"info","msg":"info: ","time":"2025-11-14T20:56:55+08:00"}
+{"level":"info","msg":"Pong: ","time":"2025-11-14T20:56:55+08:00"}
+{"level":"info","msg":"info: ","time":"2025-11-14T20:57:50+08:00"}
+{"level":"info","msg":"Pong: ","time":"2025-11-14T20:57:50+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-14T20:57:50+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-14T20:57:50+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-14T20:57:57+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-14T20:57:57+08:00"}
+{"level":"info","msg":"info: ","time":"2025-11-14T20:58:36+08:00"}
+{"level":"info","msg":"Pong: ","time":"2025-11-14T20:58:36+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-14T20:58:36+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-14T20:58:36+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-14T20:58:52+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-14T20:58:52+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-14T20:59:31+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-14T20:59:31+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-14T20:59:33+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-14T20:59:33+08:00"}
+{"level":"info","msg":"info: ","time":"2025-11-14T21:00:05+08:00"}
+{"level":"info","msg":"Pong: ","time":"2025-11-14T21:00:07+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-14T21:01:03+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-14T21:01:03+08:00"}

@@ -55,6 +55,6 @@ service TeachingEvaluateService {
     CreateClassResponse CreateClass(1: CreateClassRequest req) (api.post="/api/v1/itmo/teaching/class/create", api.serializer="json")
 
     // ======================================= User  ======================================= //
-    UserLoginResponse UserLogin(1: UserLoginRequest req) (api.post="/api/v1/itmo/teaching/user/login", api.serializer="json")
+    UserLoginResponse UserLogin(1: UserLoginRequest req) (api.post="/api/v1/itmo/teaching/evaluation/user/login", api.serializer="json")
 
 } (agw.preserve_base="true", agw.js_conv="str")

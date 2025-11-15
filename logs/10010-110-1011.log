@@ -1,0 +1,9 @@
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-10T10:43:25+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-10T10:43:25+08:00"}
+{"level":"info","msg":"ctx: null","time":"2025-11-10T10:43:45+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-10T10:43:57+08:00"}
+{"level":"error","msg":"UserLogin err: user not found","time":"2025-11-10T10:43:57+08:00"}
+{"level":"info","msg":"ctx: null","time":"2025-11-10T21:49:30+08:00"}
+{"level":"info","msg":"value: \u003cnil\u003e","time":"2025-11-10T21:49:30+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-10T23:44:13+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-10T23:44:13+08:00"}
