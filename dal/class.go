@@ -23,3 +23,20 @@ func FindClassByNumber(ctx context.Context, db *gorm.DB, number string) (*dbMode
 	}
 	return &class, nil
 }
+
+func FindClassById(ctx context.Context, db *gorm.DB, id int64) (*dbModel.Class, error) {
+	var class dbModel.Class
+	if err := db.WithContext(ctx).Where("id = ?", id).First(&class).Error; err != nil {
+		klog.CtxErrorf(ctx, "find class by id failed: %v", err)
+		return nil, err
+	}
+	return &class, nil
+}
+
+func EditClass(ctx context.Context, db *gorm.DB, class *dbModel.Class) error {
+	if err := db.WithContext(ctx).Model(class).Updates(class).Error; err != nil {
+		klog.CtxErrorf(ctx, "edit class failed: %v", err)
+		return err
+	}
+	return nil
+}

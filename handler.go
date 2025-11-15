@@ -46,3 +46,15 @@ func (s *TeachingEvaluateServiceImpl) CreateClass(ctx context.Context, req *teac
 	}
 	return resp, nil
 }
+
+// EditClass implements the TeachingEvaluateServiceImpl interface.
+func (s *TeachingEvaluateServiceImpl) EditClass(ctx context.Context, req *teaching_evaluate.EditClassRequest) (resp *teaching_evaluate.EditClassResponse, err error) {
+	resp, err = class.EditClass(ctx, req)
+	if err != nil {
+		klog.CtxErrorf(ctx, "edit-class failed: %v", err)
+		resp = &teaching_evaluate.EditClassResponse{
+			BaseResp: handler.GenErrorBaseResp(err.Error()),
+		}
+	}
+	return resp, nil
+}

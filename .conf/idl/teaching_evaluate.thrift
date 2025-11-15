@@ -21,6 +21,16 @@ struct CreateClassResponse {
 	255: required base.BaseResp BaseResp
 }
 
+struct EditClassRequest {
+	1:   required i64       id
+	2:            string    classNumber
+	255: required base.Base Base
+}
+
+struct EditClassResponse {
+	255: required base.BaseResp BaseResp
+}
+
 
 // ======================================= User ======================================= //
 enum UserRole {
@@ -52,7 +62,8 @@ service TeachingEvaluateService {
     PingResponse Ping(1: PingRequest req) (api.post="/api/v1/itmo/teaching/evaluation/ping", api.serializer="json")
 
     // ======================================= Student Class ======================================= //
-    CreateClassResponse CreateClass(1: CreateClassRequest req) (api.post="/api/v1/itmo/teaching/class/create", api.serializer="json")
+    CreateClassResponse CreateClass(1: CreateClassRequest req) (api.post="/api/v1/itmo/teaching/admin/class/create", api.serializer="json")
+    EditClassResponse EditClass(1: EditClassRequest req) (api.post="/api/v1/itmo/teaching/admin/class/edit", api.serializer="json")
 
     // ======================================= User  ======================================= //
     UserLoginResponse UserLogin(1: UserLoginRequest req) (api.post="/api/v1/itmo/teaching/evaluation/user/login", api.serializer="json")

@@ -25,10 +25,11 @@ func CreateClass(ctx context.Context, req *teaching_evaluate.CreateClassRequest)
 	}
 
 	if err := dal.CreateClass(ctx, db.DB, &db.Class{
-		ID:          utils.GetId(),
-		ClassNumber: req.GetClassNumber(),
-		CreatedAt:   time.Now().Unix(),
-		CreatedOpID: userInfo.Id,
+		ID:            utils.GetId(),
+		ClassNumber:   req.GetClassNumber(),
+		CreatedAt:     time.Now().Unix(),
+		CreatedOpID:   userInfo.Id,
+		CreatedOpName: userInfo.Name,
 	}); err != nil {
 		klog.CtxErrorf(ctx, "create class error: %v", err)
 		return nil, err

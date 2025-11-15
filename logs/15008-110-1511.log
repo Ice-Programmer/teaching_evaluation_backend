@@ -17,3 +17,14 @@
 {"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T20:04:38+08:00"}
 {"level":"info","msg":"InitDBGorm success","time":"2025-11-15T20:04:45+08:00"}
 {"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T20:04:45+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T20:33:22+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T20:33:22+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T20:33:24+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T20:33:24+08:00"}
+{"level":"error","msg":"edit-class failed: user not login","time":"2025-11-15T20:33:48+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T20:35:12+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T20:35:12+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T20:35:19+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T20:35:19+08:00"}
+{"level":"error","msg":"edit class failed: Error 1062 (23000): Duplicate entry '22320111' for key 'student_class.uk_class_number'","time":"2025-11-15T20:36:01+08:00"}
+{"level":"error","msg":"edit-class failed: edit class error: Error 1062 (23000): Duplicate entry '22320111' for key 'student_class.uk_class_number'","time":"2025-11-15T20:36:01+08:00"}
