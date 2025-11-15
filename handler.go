@@ -4,6 +4,7 @@ import (
 	"context"
 	"github.com/cloudwego/kitex/pkg/klog"
 	"teaching_evaluate_backend/handler"
+	"teaching_evaluate_backend/handler/class"
 	"teaching_evaluate_backend/handler/ping"
 	"teaching_evaluate_backend/handler/user"
 	teaching_evaluate "teaching_evaluate_backend/kitex_gen/teaching_evaluate"
@@ -22,17 +23,24 @@ func (s *TeachingEvaluateServiceImpl) Ping(ctx context.Context, req *teaching_ev
 	return resp, nil
 }
 
-// CreateClass implements the TeachingEvaluateServiceImpl interface.
-func (s *TeachingEvaluateServiceImpl) CreateClass(ctx context.Context, req *teaching_evaluate.CreateClassRequest) (resp *teaching_evaluate.CreateClassResponse, err error) {
-	return
-}
-
 // UserLogin implements the TeachingEvaluateServiceImpl interface.
 func (s *TeachingEvaluateServiceImpl) UserLogin(ctx context.Context, req *teaching_evaluate.UserLoginRequest) (resp *teaching_evaluate.UserLoginResponse, err error) {
 	resp, err = user.UserLogin(ctx, req)
 	if err != nil {
 		klog.CtxErrorf(ctx, "UserLogin err: %v", err)
 		resp = &teaching_evaluate.UserLoginResponse{
+			BaseResp: handler.GenErrorBaseResp(err.Error()),
+		}
+	}
+	return resp, nil
+}
+
+// CreateClass implements the TeachingEvaluateServiceImpl interface.
+func (s *TeachingEvaluateServiceImpl) CreateClass(ctx context.Context, req *teaching_evaluate.CreateClassRequest) (resp *teaching_evaluate.CreateClassResponse, err error) {
+	resp, err = class.CreateClass(ctx, req)
+	if err != nil {
+		klog.CtxErrorf(ctx, "create-class failed: %v", err)
+		resp = &teaching_evaluate.CreateClassResponse{
 			BaseResp: handler.GenErrorBaseResp(err.Error()),
 		}
 	}

@@ -60,6 +60,7 @@ func StartKitexServer() error {
 		kitexserver.WithServiceAddr(&net.TCPAddr{Port: 8888}),
 		kitexserver.WithMetaHandler(transmeta.ServerTTHeaderHandler),
 		kitexserver.WithMetaHandler(transmeta.ServerHTTP2Handler),
+		kitexserver.WithMiddleware(gateway.AuthInterceptor()),
 	)
 	err := svr.Run()
 	if err != nil {

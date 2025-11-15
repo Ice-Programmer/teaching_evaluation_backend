@@ -1,7 +1,7 @@
 package db
 
 var (
-	ClassTableName = "class"
+	ClassTableName = "student_class"
 )
 
 type Class struct {

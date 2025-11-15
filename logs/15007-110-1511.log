@@ -1,0 +1,121 @@
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:02:23+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:02:23+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:02:46+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:02:46+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T19:02:46+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:03:54+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:03:54+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:04:10+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:04:53+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:04:53+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T19:04:54+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:05:00+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:05:00+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:05:17+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:06:08+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:10:31+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:10:58+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T19:10:58+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:12:00+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:12:00+08:00"}
+{"level":"info","msg":"AuthInterceptor: {\"req\":{\"Base\":{\"LogID\":\"\",\"Caller\":\"\",\"Addr\":\"\",\"Client\":\"\",\"Extra\":{\"Accept\":\"*/*\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Authorization\":\"1\",\"Connection\":\"keep-alive\",\"Content-Length\":\"0\",\"Content-Type\":\"application/json\",\"Host\":\"localhost:8080\",\"Postman-Token\":\"232f5c06-4359-48fe-87e8-464e83ddf902\",\"User-Agent\":\"PostmanRuntime/7.29.0\"}}}}","time":"2025-11-15T19:12:06+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:14:25+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:14:25+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T19:14:25+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:14:27+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:14:27+08:00"}
+{"level":"info","msg":"AuthInterceptor: {\"req\":{\"Base\":{\"LogID\":\"\",\"Caller\":\"\",\"Addr\":\"\",\"Client\":\"\",\"Extra\":{\"Accept\":\"*/*\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Authorization\":\"1\",\"Connection\":\"keep-alive\",\"Content-Length\":\"0\",\"Content-Type\":\"application/json\",\"Host\":\"localhost:8080\",\"Postman-Token\":\"ca2f46c9-63a7-4b1c-9209-4838f67bb543\",\"User-Agent\":\"PostmanRuntime/7.29.0\"}}}}","time":"2025-11-15T19:14:33+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:15:41+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:15:59+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T19:15:59+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:17:25+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:17:25+08:00"}
+{"level":"info","msg":"AuthInterceptor: {\"req\":{\"Base\":{\"LogID\":\"\",\"Caller\":\"\",\"Addr\":\"\",\"Client\":\"\",\"Extra\":{\"Accept\":\"*/*\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Authorization\":\"1\",\"Connection\":\"keep-alive\",\"Content-Length\":\"0\",\"Content-Type\":\"application/json\",\"Host\":\"localhost:8080\",\"Postman-Token\":\"82b8874d-a146-4176-b036-cc2d7195c1d3\",\"User-Agent\":\"PostmanRuntime/7.29.0\"}}}}","time":"2025-11-15T19:17:37+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:17:38+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:18:06+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T19:18:06+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:18:13+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:18:13+08:00"}
+{"level":"error","msg":"KITEX: panic happened, remoteAddress=127.0.0.1:54115, remoteService=, error=interface conversion: interface {} is *teaching_evaluate.TeachingEvaluateServicePingArgs, not map[string]interface {}\nstack=goroutine 52 [running]:\nruntime/debug.Stack()\n\t/Users/chenjiahan/sdk/go1.24.2/src/runtime/debug/stack.go:26 +0x64\ngithub.com/cloudwego/kitex/pkg/remote/trans.(*svrTransHandler).OnRead.func1()\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/kitex@v0.15.2/pkg/remote/trans/default_server_handler.go:149 +0x94\npanic({0x1017b4580?, 0x1400200e480?})\n\t/Users/chenjiahan/sdk/go1.24.2/src/runtime/panic.go:792 +0xf0\nteaching_evaluate_backend/gateway.AuthInterceptor.func1.1({0x1018f1b50, 0x1400200e450}, {0x101887960, 0x1400202c000}, {0x101887a80, 0x1400202c018})\n\t/Users/chenjiahan/project/SchoolProject/学评教系统/teaching_evaluate_backend/gateway/intrerceptor.go:14 +0x164\ngithub.com/cloudwego/kitex/server.(*server).wrapStreamMiddleware.func1.1({0x1018f1b50, 0x1400200e450}, {0x101887960, 0x1400202c000}, {0x101887a80, 0x1400202c018})\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/kitex@v0.15.2/server/stream.go:44 +0x1e4\ngithub.com/cloudwego/kitex/pkg/remote/trans.(*svrTransHandler).OnMessage(0x14001d64050, {0x1018f1b50, 0x1400200e450}, {0x1018f9148, 0x14002002380}, {0x1018f9148, 0x140020023f0})\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/kitex@v0.15.2/pkg/remote/trans/default_server_handler.go:226 +0xc0\ngithub.com/cloudwego/kitex/pkg/remote/trans/detection.(*svrTransHandler).OnMessage(0x14001d2c240, {0x1018f1b50, 0x1400200e450}, {0x1018f9148, 0x14002002380}, {0x1018f9148, 0x140020023f0})\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/kitex@v0.15.2/pkg/remote/trans/detection/server_handler.go:126 +0x8c\ngithub.com/cloudwego/kitex/pkg/remote.(*TransPipeline).OnMessage(0x14001d341c0, {0x1018f1b50, 0x1400200e450}, {0x1018f9148, 0x14002002380}, {0x1018f9148, 0x140020023f0})\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/kitex@v0.15.2/pkg/remote/trans_pipeline.go:156 +0x21c\ngithub.com/cloudwego/kitex/pkg/remote/trans.(*svrTransHandler).OnRead(0x14001d64050, {0x1018f1b50, 0x14001ca02d0}, {0x128fea618, 0x14001cb42c0})\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/kitex@v0.15.2/pkg/remote/trans/default_server_handler.go:201 +0x5e0\ngithub.com/cloudwego/kitex/pkg/remote/trans/detection.(*svrTransHandler).OnRead(0x14001d2c240, {0x1018f1b50, 0x14001ca02d0}, {0x128fea618, 0x14001cb42c0})\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/kitex@v0.15.2/pkg/remote/trans/detection/server_handler.go:110 +0x368\ngithub.com/cloudwego/kitex/pkg/remote.(*TransPipeline).OnRead(0x14001d341c0, {0x1018f1b50, 0x14001ca02d0}, {0x128fea618, 0x14001cb42c0})\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/kitex@v0.15.2/pkg/remote/trans_pipeline.go:129 +0x208\ngithub.com/cloudwego/kitex/pkg/remote/trans/netpoll.(*transServer).onConnRead(0x14001d62080, {0x1018f1b50, 0x14001ca02d0}, {0x1018f96f8, 0x14001cb42c0})\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/kitex@v0.15.2/pkg/remote/trans/netpoll/trans_server.go:170 +0x17c\ngithub.com/cloudwego/netpoll.(*connection).onProcess.func1()\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/netpoll@v0.7.2/connection_onevent.go:216 +0x358\ngithub.com/bytedance/gopkg/util/gopool.(*worker).run.func1.1(0x14001c8c020, 0x14001c940a0)\n\t/Users/chenjiahan/go/pkg/mod/github.com/bytedance/gopkg@v0.1.3/util/gopool/worker.go:69 +0xd4\ngithub.com/bytedance/gopkg/util/gopool.(*worker).run.func1()\n\t/Users/chenjiahan/go/pkg/mod/github.com/bytedance/gopkg@v0.1.3/util/gopool/worker.go:70 +0x164\ncreated by github.com/bytedance/gopkg/util/gopool.(*worker).run in goroutine 26\n\t/Users/chenjiahan/go/pkg/mod/github.com/bytedance/gopkg@v0.1.3/util/gopool/worker.go:41 +0x78\n","time":"2025-11-15T19:18:19+08:00"}
+{"level":"error","msg":"KITEX: processing request error, remoteService=, remoteAddr=127.0.0.1:54115, error=panic: [happened in OnRead] interface conversion: interface {} is *teaching_evaluate.TeachingEvaluateServicePingArgs, not map[string]interface {}\nstack=goroutine 52 [running]:\nruntime/debug.Stack()\n\t/Users/chenjiahan/sdk/go1.24.2/src/runtime/debug/stack.go:26 +0x64\ngithub.com/cloudwego/kitex/pkg/remote/trans.(*svrTransHandler).OnRead.func1()\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/kitex@v0.15.2/pkg/remote/trans/default_server_handler.go:149 +0x94\npanic({0x1017b4580?, 0x1400200e480?})\n\t/Users/chenjiahan/sdk/go1.24.2/src/runtime/panic.go:792 +0xf0\nteaching_evaluate_backend/gateway.AuthInterceptor.func1.1({0x1018f1b50, 0x1400200e450}, {0x101887960, 0x1400202c000}, {0x101887a80, 0x1400202c018})\n\t/Users/chenjiahan/project/SchoolProject/学评教系统/teaching_evaluate_backend/gateway/intrerceptor.go:14 +0x164\ngithub.com/cloudwego/kitex/server.(*server).wrapStreamMiddleware.func1.1({0x1018f1b50, 0x1400200e450}, {0x101887960, 0x1400202c000}, {0x101887a80, 0x1400202c018})\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/kitex@v0.15.2/server/stream.go:44 +0x1e4\ngithub.com/cloudwego/kitex/pkg/remote/trans.(*svrTransHandler).OnMessage(0x14001d64050, {0x1018f1b50, 0x1400200e450}, {0x1018f9148, 0x14002002380}, {0x1018f9148, 0x140020023f0})\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/kitex@v0.15.2/pkg/remote/trans/default_server_handler.go:226 +0xc0\ngithub.com/cloudwego/kitex/pkg/remote/trans/detection.(*svrTransHandler).OnMessage(0x14001d2c240, {0x1018f1b50, 0x1400200e450}, {0x1018f9148, 0x14002002380}, {0x1018f9148, 0x140020023f0})\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/kitex@v0.15.2/pkg/remote/trans/detection/server_handler.go:126 +0x8c\ngithub.com/cloudwego/kitex/pkg/remote.(*TransPipeline).OnMessage(0x14001d341c0, {0x1018f1b50, 0x1400200e450}, {0x1018f9148, 0x14002002380}, {0x1018f9148, 0x140020023f0})\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/kitex@v0.15.2/pkg/remote/trans_pipeline.go:156 +0x21c\ngithub.com/cloudwego/kitex/pkg/remote/trans.(*svrTransHandler).OnRead(0x14001d64050, {0x1018f1b50, 0x14001ca02d0}, {0x128fea618, 0x14001cb42c0})\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/kitex@v0.15.2/pkg/remote/trans/default_server_handler.go:201 +0x5e0\ngithub.com/cloudwego/kitex/pkg/remote/trans/detection.(*svrTransHandler).OnRead(0x14001d2c240, {0x1018f1b50, 0x14001ca02d0}, {0x128fea618, 0x14001cb42c0})\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/kitex@v0.15.2/pkg/remote/trans/detection/server_handler.go:110 +0x368\ngithub.com/cloudwego/kitex/pkg/remote.(*TransPipeline).OnRead(0x14001d341c0, {0x1018f1b50, 0x14001ca02d0}, {0x128fea618, 0x14001cb42c0})\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/kitex@v0.15.2/pkg/remote/trans_pipeline.go:129 +0x208\ngithub.com/cloudwego/kitex/pkg/remote/trans/netpoll.(*transServer).onConnRead(0x14001d62080, {0x1018f1b50, 0x14001ca02d0}, {0x1018f96f8, 0x14001cb42c0})\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/kitex@v0.15.2/pkg/remote/trans/netpoll/trans_server.go:170 +0x17c\ngithub.com/cloudwego/netpoll.(*connection).onProcess.func1()\n\t/Users/chenjiahan/go/pkg/mod/github.com/cloudwego/netpoll@v0.7.2/connection_onevent.go:216 +0x358\ngithub.com/bytedance/gopkg/util/gopool.(*worker).run.func1.1(0x14001c8c020, 0x14001c940a0)\n\t/Users/chenjiahan/go/pkg/mod/github.com/bytedance/gopkg@v0.1.3/util/gopool/worker.go:69 +0xd4\ngithub.com/bytedance/gopkg/util/gopool.(*worker).run.func1()\n\t/Users/chenjiahan/go/pkg/mod/github.com/bytedance/gopkg@v0.1.3/util/gopool/worker.go:70 +0x164\ncreated by github.com/bytedance/gopkg/util/gopool.(*worker).run in goroutine 26\n\t/Users/chenjiahan/go/pkg/mod/github.com/bytedance/gopkg@v0.1.3/util/gopool/worker.go:41 +0x78\n","time":"2025-11-15T19:18:19+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:18:46+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T19:18:46+08:00"}
+{"level":"warning","msg":"KITEX: auto retry retryable error, retry=1 error=remote or network error: get connection error: dial tcp 127.0.0.1:8888: connection has been closed by peer","time":"2025-11-15T19:18:48+08:00"}
+{"level":"warning","msg":"KITEX: auto retry retryable error, retry=2 error=remote or network error: get connection error: dial tcp 127.0.0.1:8888: connection has been closed by peer","time":"2025-11-15T19:18:48+08:00"}
+{"level":"warning","msg":"KITEX: auto retry retryable error, retry=3 error=remote or network error: get connection error: dial tcp 127.0.0.1:8888: connection has been closed by peer","time":"2025-11-15T19:18:48+08:00"}
+{"level":"warning","msg":"KITEX: auto retry retryable error, retry=4 error=remote or network error: get connection error: dial tcp 127.0.0.1:8888: connection has been closed by peer","time":"2025-11-15T19:18:48+08:00"}
+{"level":"warning","msg":"KITEX: auto retry retryable error, retry=5 error=remote or network error: get connection error: dial tcp 127.0.0.1:8888: connection has been closed by peer","time":"2025-11-15T19:18:48+08:00"}
+{"level":"warning","msg":"KITEX: auto retry retryable error, retry=6 error=remote or network error: get connection error: dial tcp 127.0.0.1:8888: connection has been closed by peer","time":"2025-11-15T19:18:48+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:18:50+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:18:50+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:19:02+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:19:23+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:19:23+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:19:29+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:19:29+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:19:30+08:00"}
+{"level":"error","msg":"KITEX: server listen failed, addr=:8888 error=listen tcp :8888: bind: address already in use","time":"2025-11-15T19:19:30+08:00"}
+{"level":"error","msg":"KITEX: server start error: error=listen tcp :8888: bind: address already in use","time":"2025-11-15T19:19:30+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:19:31+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T19:19:31+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:19:35+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:19:35+08:00"}
+{"level":"info","msg":"AuthInterceptor: {\"req\":{\"Base\":{\"LogID\":\"\",\"Caller\":\"\",\"Addr\":\"\",\"Client\":\"\",\"Extra\":{\"Accept\":\"*/*\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Authorization\":\"1\",\"Connection\":\"keep-alive\",\"Content-Length\":\"0\",\"Content-Type\":\"application/json\",\"Host\":\"localhost:8080\",\"Postman-Token\":\"cd8673c0-ba3b-45d9-9728-9b867a9f6118\",\"User-Agent\":\"PostmanRuntime/7.29.0\"}}}}","time":"2025-11-15T19:19:39+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:21:08+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:21:08+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T19:21:08+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:21:11+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:21:11+08:00"}
+{"level":"info","msg":"AuthInterceptor: {\"req\":{\"Base\":{\"LogID\":\"\",\"Caller\":\"\",\"Addr\":\"\",\"Client\":\"\",\"Extra\":{\"Accept\":\"*/*\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Authorization\":\"1\",\"Connection\":\"keep-alive\",\"Content-Length\":\"0\",\"Content-Type\":\"application/json\",\"Host\":\"localhost:8080\",\"Postman-Token\":\"0dd8380e-7d22-45bb-957b-348d3cf86d32\",\"User-Agent\":\"PostmanRuntime/7.29.0\"}}}}","time":"2025-11-15T19:21:18+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:21:30+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:21:30+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T19:21:30+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:21:32+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:21:32+08:00"}
+{"level":"info","msg":"AuthInterceptor: {\"req\":{\"Base\":{\"LogID\":\"\",\"Caller\":\"\",\"Addr\":\"\",\"Client\":\"\",\"Extra\":{\"Accept\":\"*/*\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Authorization\":\"1\",\"Connection\":\"keep-alive\",\"Content-Length\":\"0\",\"Content-Type\":\"application/json\",\"Host\":\"localhost:8080\",\"Postman-Token\":\"0dba5334-8f68-4255-a664-4c425dad1194\",\"User-Agent\":\"PostmanRuntime/7.29.0\"}}}}","time":"2025-11-15T19:21:37+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:21:41+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:26:20+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T19:26:20+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:26:22+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:26:22+08:00"}
+{"level":"info","msg":"AuthInterceptor: {\"req\":{\"Base\":{\"LogID\":\"\",\"Caller\":\"\",\"Addr\":\"\",\"Client\":\"\",\"Extra\":{\"Accept\":\"*/*\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Authorization\":\"1\",\"Connection\":\"keep-alive\",\"Content-Length\":\"0\",\"Content-Type\":\"application/json\",\"Host\":\"localhost:8080\",\"Postman-Token\":\"bebaf789-54ae-490e-8083-e3b8bda4a902\",\"User-Agent\":\"PostmanRuntime/7.29.0\"}}}}","time":"2025-11-15T19:26:32+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:26:51+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:27:37+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T19:27:37+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:27:59+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:28:04+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:28:28+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:29:43+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T19:29:43+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:29:49+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:29:49+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:30:42+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:31:17+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:31:17+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T19:31:17+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:31:19+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:31:19+08:00"}
+{"level":"info","msg":"Pong: 1","time":"2025-11-15T19:31:31+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:32:42+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T19:32:42+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:32:49+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:32:49+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:32:58+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:33:32+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T19:33:32+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:33:35+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:33:35+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:33:49+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:35:17+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T19:35:17+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:35:24+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:35:24+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:35:46+08:00"}
+{"level":"info","msg":"Pong: \u003cnil\u003e","time":"2025-11-15T19:36:25+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T19:43:30+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T19:43:30+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T19:43:34+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T19:43:34+08:00"}
+{"level":"info","msg":"Pong: 1","time":"2025-11-15T19:43:46+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T20:00:29+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T20:00:29+08:00"}
