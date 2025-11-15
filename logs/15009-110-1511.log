@@ -1,0 +1,16 @@
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T21:14:17+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T21:14:17+08:00"}
+{"level":"error","msg":"query class count failed: Error 1054 (42S22): Unknown column 'class_name' in 'where clause'","time":"2025-11-15T21:15:26+08:00"}
+{"level":"error","msg":"query-class failed: Error 1054 (42S22): Unknown column 'class_name' in 'where clause'","time":"2025-11-15T21:15:26+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T21:16:25+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T21:16:25+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T21:16:32+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T21:16:32+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T21:17:07+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T21:17:07+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T21:17:14+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T21:17:14+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown starts","time":"2025-11-15T21:18:34+08:00"}
+{"level":"info","msg":"KITEX: gRPC GracefulShutdown ends","time":"2025-11-15T21:18:34+08:00"}
+{"level":"info","msg":"InitDBGorm success","time":"2025-11-15T21:18:41+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-11-15T21:18:41+08:00"}

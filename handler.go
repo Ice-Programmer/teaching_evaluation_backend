@@ -58,3 +58,15 @@ func (s *TeachingEvaluateServiceImpl) EditClass(ctx context.Context, req *teachi
 	}
 	return resp, nil
 }
+
+// QueryClass implements the TeachingEvaluateServiceImpl interface.
+func (s *TeachingEvaluateServiceImpl) QueryClass(ctx context.Context, req *teaching_evaluate.QueryClassRequest) (resp *teaching_evaluate.QueryClassResponse, err error) {
+	resp, err = class.QueryClass(ctx, req)
+	if err != nil {
+		klog.CtxErrorf(ctx, "query-class failed: %v", err)
+		resp = &teaching_evaluate.QueryClassResponse{
+			BaseResp: handler.GenErrorBaseResp(err.Error()),
+		}
+	}
+	return resp, nil
+}

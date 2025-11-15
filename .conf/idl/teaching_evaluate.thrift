@@ -31,6 +31,35 @@ struct EditClassResponse {
 	255: required base.BaseResp BaseResp
 }
 
+struct QueryClassCondition {
+	1: optional i64       id
+	2: optional list<i64> ids
+	3: optional string    searchText
+}
+
+struct QueryClassRequest {
+	1:   optional QueryClassCondition condition
+	2:            i32                 pageSize
+	3:            i32                 pageNum
+	255: required base.Base           Base
+}
+
+struct ClassInfo {
+	1:  i64    id
+	2:  string classNumber
+	3:  i64    createTime
+	4:  i64    createOpId
+	5:  string createOpName
+	6:  i64    updateTime
+	7:  i64    updateOpId
+	8:  string updateOpName
+}
+
+struct QueryClassResponse {
+	1:            list<ClassInfo> classInfoList
+	2:            i64             total
+	255: required base.BaseResp   BaseResp
+}
 
 // ======================================= User ======================================= //
 enum UserRole {
@@ -64,6 +93,7 @@ service TeachingEvaluateService {
     // ======================================= Student Class ======================================= //
     CreateClassResponse CreateClass(1: CreateClassRequest req) (api.post="/api/v1/itmo/teaching/admin/class/create", api.serializer="json")
     EditClassResponse EditClass(1: EditClassRequest req) (api.post="/api/v1/itmo/teaching/admin/class/edit", api.serializer="json")
+    QueryClassResponse QueryClass(1: QueryClassRequest req) (api.post="/api/v1/itmo/teaching/admin/class/query", api.serializer="json")
 
     // ======================================= User  ======================================= //
     UserLoginResponse UserLogin(1: UserLoginRequest req) (api.post="/api/v1/itmo/teaching/evaluation/user/login", api.serializer="json")

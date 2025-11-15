@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS student_class
     updated_op_name VARCHAR(128)      NOT NULL COMMENT '更新者',
     updated_op_id   VARCHAR(128)      NOT NULL COMMENT '更新者 id',
     deleted_at      TINYINT DEFAULT 0 NOT NULL COMMENT '删除时间',
-    UNIQUE KEY uk_class_number (class_number)
+    UNIQUE KEY uk_class_number (class_number, deleted_at)
 ) COMMENT '班级表' CHARSET = utf8mb4
                    COLLATE = utf8mb4_unicode_ci;
 
@@ -24,10 +24,9 @@ CREATE TABLE IF NOT EXISTS student_class
 CREATE TABLE IF NOT EXISTS admin
 (
     id        BIGINT AUTO_INCREMENT COMMENT 'id' PRIMARY KEY,
-    username  VARCHAR(256)      NOT NULL COMMENT '账号',
-    password  VARCHAR(256)      NOT NULL COMMENT '密码',
-    create_at BIGINT  DEFAULT 0 NOT NULL COMMENT '创建时间',
-    deleted_at TINYINT DEFAULT 0 NOT NULL COMMENT '删除时间',
+    username  VARCHAR(256)     NOT NULL COMMENT '账号',
+    password  VARCHAR(256)     NOT NULL COMMENT '密码',
+    create_at BIGINT DEFAULT 0 NOT NULL COMMENT '创建时间',
     UNIQUE INDEX idx_username (username)
 ) COMMENT '管理员表' CHARSET = utf8mb4
                      COLLATE = utf8mb4_unicode_ci;
@@ -44,7 +43,7 @@ CREATE TABLE IF NOT EXISTS student
     status         TINYINT DEFAULT 0 NOT NULL COMMENT '学生状态（0 - 正常使用 1 - 拒绝访问）',
     create_at      BIGINT  DEFAULT 0 NOT NULL COMMENT '创建时间',
     deleted_at     TINYINT DEFAULT 0 NOT NULL COMMENT '是否删除',
-    INDEX idx_student_number (student_number),
+    INDEX idx_student_number (student_number, deleted_at),
     INDEX idx_class_id (class_id),
     INDEX idx_grade_major (grade, major)
 ) COMMENT '学生表' CHARSET = utf8mb4
