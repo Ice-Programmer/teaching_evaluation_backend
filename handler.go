@@ -70,3 +70,15 @@ func (s *TeachingEvaluateServiceImpl) QueryClass(ctx context.Context, req *teach
 	}
 	return resp, nil
 }
+
+// GetClassImportExcel implements the TeachingEvaluateServiceImpl interface.
+func (s *TeachingEvaluateServiceImpl) GetClassImportExcel(ctx context.Context, req *teaching_evaluate.GetClassImportExcelRequest) (resp *teaching_evaluate.GetClassImportExcelResponse, err error) {
+	resp, err = class.GetClassImportExcel(ctx, req)
+	if err != nil {
+		klog.CtxErrorf(ctx, "get-class-import excel failed: %v", err)
+		resp = &teaching_evaluate.GetClassImportExcelResponse{
+			BaseResp: handler.GenErrorBaseResp(err.Error()),
+		}
+	}
+	return resp, nil
+}

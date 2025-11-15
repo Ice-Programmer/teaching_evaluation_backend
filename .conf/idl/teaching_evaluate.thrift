@@ -61,6 +61,16 @@ struct QueryClassResponse {
 	255: required base.BaseResp   BaseResp
 }
 
+struct GetClassImportExcelRequest {
+	255: required base.Base Base
+}
+
+struct GetClassImportExcelResponse {
+	1:            binary        excelFile
+	2:            string        fileName
+	255: required base.BaseResp BaseResp
+}
+
 // ======================================= User ======================================= //
 enum UserRole {
 	Student = 1
@@ -94,6 +104,7 @@ service TeachingEvaluateService {
     CreateClassResponse CreateClass(1: CreateClassRequest req) (api.post="/api/v1/itmo/teaching/admin/class/create", api.serializer="json")
     EditClassResponse EditClass(1: EditClassRequest req) (api.post="/api/v1/itmo/teaching/admin/class/edit", api.serializer="json")
     QueryClassResponse QueryClass(1: QueryClassRequest req) (api.post="/api/v1/itmo/teaching/admin/class/query", api.serializer="json")
+    GetClassImportExcelResponse GetClassImportExcel(1: GetClassImportExcelRequest req) (api.post="/api/v1/itmo/teaching/admin/class/excel/get", api.serializer="json")
 
     // ======================================= User  ======================================= //
     UserLoginResponse UserLogin(1: UserLoginRequest req) (api.post="/api/v1/itmo/teaching/evaluation/user/login", api.serializer="json")
